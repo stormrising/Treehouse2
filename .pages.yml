@@ -1,0 +1,34 @@
+site:
+  name: Ecology  Site
+  logo: /public/images/logo.png
+
+collections:
+  pages:
+    label: "Pages"
+    folder: "src/content/pages"
+    create: true
+    format: frontmatter
+    fields:
+      - { label: Title, name: title, type: text }
+      - { label: Subtitle, name: subtitle, type: text, required: false }
+      - { label: Body, name: body, type: rich-text }
+
+  projects:
+    label: "Projects"
+    folder: "src/content/projects"
+    create: true
+    format: frontmatter
+    fields:
+      - { label: Title, name: title, type: text }
+      - { label: Date, name: date, type: datetime }
+      - { label: Body, name: body, type: rich-text }
+
+  journal:
+    label: "Journal"
+    folder: "src/content/journal"
+    create: true
+    format: frontmatter
+    fields:
+      - { label: Title, name: title, type: text }
+      - { label: Date, name: date, type: datetime }
+      - { label: Body, name: body, type: rich-text }
