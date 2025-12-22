@@ -55,6 +55,16 @@ export const footerData = {
   secondaryLinks: [
     { text: 'Terms', href: getPermalink('/terms') },
     { text: 'Privacy Policy', href: getPermalink('/privacy') },
+  
+  links: [
+    // You can keep this minimal or add columns later
+    ],
+
+  socialLinks: [
+    // Add later if you want (LinkedIn, Instagram, etc.)
+    // Example:
+    // { text: 'LinkedIn', href: 'https://linkedin.com/company/...' , icon: 'tabler:brand-linkedin' },
+  ],
   ],
   
   footNote: `
